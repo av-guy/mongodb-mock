@@ -7,9 +7,13 @@ at RealPython.
 ## Installation
 
 * git clone this project to your desired directory
+* rename the project folder to 'mongo'
 * create and activate your virtualenv
 * install the requirements from the requirements.txt file
-* run the project
+* cd just outside the mongo directory
+* pytest mongo to run tests
+* python mongo to run application
+
 
 MIT License
 

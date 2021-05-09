@@ -11,7 +11,6 @@ class Customers:
         self.__mongo = pymongo.MongoClient(Configuration.MONGO_DB_URL)
         self.__db = self.__create_db(name='boxdb')
         self.__customers = self.__create_column('customers')
-        self.__boxes = self.__create_column('boxes')
 
     def __create_db(self, name='test'):
         return self.__mongo[name]
